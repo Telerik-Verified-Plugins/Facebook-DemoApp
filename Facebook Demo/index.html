@@ -55,7 +55,6 @@
             <button data-role="button" class="button" data-bind="click: getLoginStatus">Get login status</button>
             <button data-role="button" class="button" data-bind="click: login">Login</button>
           </div>
-          <br/>
           <h3 class="hassubtitle">Get data from Facebook</h3>
           <div class="subtitle">
             Let's query the Facebook Graph API a bit.
@@ -68,6 +67,15 @@
           <div class="buttons">
             <button data-role="button" class="button" data-bind="click: logout">Bye!</button>
           </div>
+          <h3 class="hassubtitle">Application signature</h3>
+          <div class="subtitle">
+            On Android you need to tell Facebook your 'Hash Key' which it needs to interact with the Facebook app on your phone.
+            As a convenience we've implemented a method to retrieve this hash.
+          </div>
+          <div class="buttons">
+            <button data-role="button" class="button" data-bind="click: getApplicationSignature">Show me the signature already</button>
+          </div>
+          
       </div>
         
     </div>
