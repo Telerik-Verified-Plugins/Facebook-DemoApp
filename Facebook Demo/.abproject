@@ -38,7 +38,7 @@
     "ID_RESOLUTION_HD720P"
   ],
   "CorePlugins": [
-    "com.phonegap.plugins.facebookconnect@0.11.2",
+    "com.phonegap.plugins.facebookconnect@1.0.0",
     "org.apache.cordova.console",
     "org.apache.cordova.device",
     "org.apache.cordova.dialogs",
