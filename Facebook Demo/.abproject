@@ -6,7 +6,7 @@
   "DisplayName": "Facebook Demo",
   "Author": "Telerik",
   "Description": "Facebook Demo",
-  "BundleVersion": "1.0.1",
+  "BundleVersion": "2.0.0",
   "AndroidVersionCode": "2",
   "iOSDeviceFamily": [
     "1",
@@ -38,7 +38,7 @@
     "ID_RESOLUTION_HD720P"
   ],
   "CorePlugins": [
-    "com.phonegap.plugins.facebookconnect@1.0.1",
+    "com.phonegap.plugins.facebookconnect@1.7.1.2",
     "cordova-plugin-console",
     "cordova-plugin-device",
     "cordova-plugin-dialogs",
